@@ -9,4 +9,4 @@ def collect_feedback():
             feedback.append({'name': name, 'score': score})
         except ValueError:
             print("Invalid score. Please enter a number.")
-    return feedback
+    return feedback 
