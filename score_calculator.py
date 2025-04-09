@@ -1,5 +1,2 @@
-def compute_average(feedback):
-    if not feedback:
-        return 0.0
-    total = sum(entry['score'] for entry in feedback)
-    return total / len(feedback)
+def compute_average(scores):
+    return sum(scores) / len(scores) if scores else 0
