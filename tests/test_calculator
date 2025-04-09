@@ -1,0 +1,4 @@
+from score_calculator import compute_average
+
+def test_compute_average():
+    assert compute_average([80, 90, 100]) == 90
